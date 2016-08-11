@@ -2,3 +2,71 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+ body{
+  font-family:proxima nova-regular;
+ }
+
+ .banner-image {
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.35) 0%,
+    rgba(0,0,0,0.35) 50%), image-url('banner8.jpg');
+  // background-image: image-url('banner-image.jpg');
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position:relative;
+}
+
+.logo-bar{
+position:absolute;
+top:20px;
+left:20px;
+color:white;
+display:inline-block;
+z-index: 1002;
+font-weight: lighter;
+}
+
+h1, h2 {
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    // rgba(1, 1, 1, 0.5)
+    // red green blue [alpha = opacity]
+  }
+
+  .smooth-scroll {
+    color: white;
+    position: absolute;
+    bottom: 4px;
+    text-align: center;
+    left: 50%;
+    right: 50%;
+    opacity: 0.5;
+
+    transition: all 500ms ease;
+    &:hover {
+      color: white;
+      transform: scale(1.1);
+      opacity: 1;
+    }
+  }
+
+
+  .header-1 {
+    font-size: 40px;
+    letter-spacing: -2px;
+  }
+
+  .h2 {
+    font-size: 25px;
+  }
+
+  .wrapper-about{
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+ }
