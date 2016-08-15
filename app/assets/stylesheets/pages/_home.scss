@@ -1,193 +1,185 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
- body{
-  font-family:dosis-regular;
-  color:#12100E;
+body{
+	font-family:dosis-regular;
+	color:#12100E;
 }
 
 h1{
-  font-size:20px;
+	font-size:20px;
 }
 
 h2{
-  font-size:16px;
+	font-size:16px;
 }
 
 h3{
-  font-size:14px;
-  letter-spacing:2px
+	font-size:14px;
+	letter-spacing:2px
 }
 
 p{
-  font-size:13px;
-  letter-spacing: 2px;
-  color:gray;
-  font-weight: lighter;
-  margin-bottom:15px;
+	font-size:13px;
+	letter-spacing: 2px;
+	color:gray;
+	font-weight: lighter;
+	margin-bottom:15px;
 }
 
 .banner-image {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.35) 0%,
-    rgba(0,0,0,0.35) 50%), image-url('banner8.jpg');
-  // background-image: image-url('banner-image.jpg');
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position:relative;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.35) 0%,
+		rgba(0,0,0,0.35) 50%), image-url('banner8.jpg');
+// background-image: image-url('banner-image.jpg');
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: white;
+position:relative;
 }
 
 .logo-bar{
-  position:absolute;
-  top:20px;
-  left:20px;
-  color:white;
-  display:inline-block;
-  z-index: 1002;
+	position:absolute;
+	top:20px;
+	left:20px;
+	color:white;
+	display:inline-block;
+	z-index: 1002;
 }
 
 .logo-bar:hover{
-  color:#12100E;
+	color:#12100E;
 }
 
 h1, h2, h3 {
-  // text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-  letter-spacing:10px;
-    // rgba(1, 1, 1, 0.5)
-    // red green blue [alpha = opacity]
-  }
-
-  .smooth-scroll {
-    color: white;
-    position: absolute;
-    bottom: 4px;
-    text-align: center;
-    left: 50%;
-    right: 50%;
-    opacity: 0.5;
-
-    transition: all 500ms ease;
-    &:hover {
-      color: white;
-      transform: scale(1.1);
-      opacity: 1;
-    }
-  }
-
-
-  .header-1 {
-    letter-spacing: 26px;
-    margin-top: -50px;
-    font-weight:100;
-    color:white;
-  }
-
-  .wrapper-about{
-   width: 100%;
-   height: 60vh;
-   background-size: cover;
- }
-
- .titre-about{
-  margin-bottom:25px;
+// text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+letter-spacing:10px;
+// rgba(1, 1, 1, 0.5)
+// red green blue [alpha = opacity]
 }
 
-// .wrapper-work{
-// width:100%;
-// height:70vh;
-// }
+.smooth-scroll {
+	color: white;
+	position: absolute;
+	bottom: 4px;
+	text-align: center;
+	left: 50%;
+	right: 50%;
+	opacity: 0.5;
+
+	transition: all 500ms ease;
+	&:hover {
+		color: white;
+		transform: scale(1.1);
+		opacity: 1;
+	}
+}
+
+
+.header-1 {
+	letter-spacing: 26px;
+	margin-top: -50px;
+	font-weight:100;
+	color:white;
+}
+
+.wrapper-about{
+	width: 100%;
+	height: 60vh;
+	background-size: cover;
+}
+
+.titre-about{
+	margin-bottom:25px;
+}
+
+.wrapper-work{
+	width:100%;
+	height:70vh;
+}
 
 .project-image {
-  background-image: linear-gradient(-225deg, rgba(0,0,0,0.35) 0%,
-    rgba(0,0,0,0.35) 50%), image-url('project2.jpg');
-  // background-image: image-url('banner-image.jpg');
-  width: 100%;
-  height: 60vh;
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  position:relative;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.35) 0%,
+		rgba(0,0,0,0.35) 50%), image-url('project2.jpg');
+// background-image: image-url('banner-image.jpg');
+width: 100%;
+height: 60vh;
+background-size: cover;
+background-repeat: no-repeat;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+color: white;
+position:relative;
 }
 
 .button-project{
-  border-radius: 100px;
-  background-color: white;
-  padding: 15px 30px 15px 30px;
-  margin-top: 30px;
+	border-radius: 100px;
+	background-color: white;
+	padding: 15px 30px 15px 30px;
+	margin-top: 30px;
 }
 
 .photo-carroussel{
-  width: 100%;
+	width: 100%;
 }
 
 .carousel-inner{
-  width:100%;
-  max-height:100vh !important;
+	width:100%;
+	max-height:100vh !important;
 }
 
 .wrapper-brand{
-  width:100%;
-  height:20vh;
+	width:100%;
+	height:20vh;
 }
 
 .brand-content{
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
 }
 
 .title-brand{
-  margin-bottom:20px;
+	margin-bottom:20px;
 }
 
 a{
-  color:#12100E;
-  text-decoration: none;
-  background-color:white;
-  opacity:1;
+	color:#12100E;
+	text-decoration: none;
+	background-color:white;
+	opacity:1;
 }
 
 a:hover{
-  color: #12100E;
-  opacity:0.9;
-  background-color:white;
-  text-decoration:none;
-}
-
-.wrapper-black{
-  background-color: #12100E;
-  width:100%;
-  height:1vh;
+	color: #12100E;
+	opacity:0.9;
+	background-color:white;
+	text-decoration:none;
 }
 
 .wrapper-contact{
-  margin-bottom: 10px;
-
+	margin-bottom: 10px;
+	background-color: #F0F0F0;
+	height: 30vh;
+	width:100%;
 }
 
 .contact{
-  text-align:center;
-  margin-bottom: 20px;
+	text-align:center;
+	margin-bottom: 20px;
 
 }
 
 .contact-content{
-  display:flex;
-  text-align:center;
-  justify-content:center;
-  align-items:center;
+	display:flex;
+	text-align:center;
+	justify-content:center;
+	align-items:center;
 }
 
 
