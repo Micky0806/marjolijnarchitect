@@ -1,22 +1,21 @@
   <div class="wrapper-home" id="home">
-  <div class="banner-image">
-    <div>
-      <h1 class="header-1">MARJOLIJN BIJMAN</h1>
-      <h2 class="h2">INTERIOR ARCHITECT</h2>
+    <div class="banner-image">
+      <div>
+        <h1 class="header-1">MARJOLIJN BIJMAN</h1>
+        <h2>INTERIOR ARCHITECT</h2>
+      </div>
+      <%= link_to "#about" do %>
+      <i class="fa fa-angle-down fa-4x smooth-scroll"></i>
+      <% end %>
+      <i class="fa fa-bars fa-2x logo-bar"></i>
     </div>
-    <%= link_to "#about" do %>
-    <i class="fa fa-angle-down fa-4x smooth-scroll"></i>
-    <% end %>
-    <i class="fa fa-bars fa-2x logo-bar"></i>
-
   </div>
-   </div>
 
   <div class="wrapper-about" id="about">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <h3>dear.....</h3>
+          <h3 class="titre-about">dear.....</h3>
         </div>
       </div>
       <div class="row">
@@ -31,8 +30,8 @@
           <p>We proudly have the capacity to provide our interiors clients with any level of service they require. Everything from designing a sink for their existing home to drawing their future home is within our purview. We have the benefit of using these big projects as inspiration to design furniture and products. Much of our furniture starts as limited editions and evolves into commercially viable products, which we then license through leading manufactures.</p>
           <p>We would love to hear from you, whoever you are. So please reach out to us with any questions or requests you might have for our studio. </p>
           <p></p>
-          <p>Thanks for reading.</p>
-          <p>
+          <p class="thanks">Thanks for reading.</p>
+          <p class="greeting">
             Sincerely,
             <br>
             <em>Soren
@@ -41,74 +40,51 @@
               </em>
             </em>
           </p>
-
         </div>
       </div>
     </div>
   </div>
 
   <div class="wrapper-work" id="work">
-<div class="work-image">
-<div class="project">
-<h2 class="h2 project">PROJECTS</h2>
-<p class="button-project">
-CURIOUS COME HAVE A LOOK
-</p>
-</div>
-</div>
+    <div class="project-image">
+      <div class="project">
+        <h2>PROJECTS</h2>
+        <p class="button-project">Curious? Click here to have a look</p>
+      </div>
+    </div>
   </div>
 
-  <div class="wrapper-journal">
   <div class="container">
   <div class="row">
-    <div class="col-xs-12">
+    <div class="col-md-3">
 
     </div>
   </div>
-    <div class="row">
-      <div class="col-xs-6 col-md-3">
-      </div>
-       <div class="col-xs-6 col-md-3">
-      </div>
-       <div class="col-xs-6 col-md-3">
-      </div>
-       <div class="col-xs-6 col-md-3">
+  </div>
+
+
+  <div class="wrapper-brand" id="brands">
+    <div class="brand-content">
+      <div>
+        <h2 class="title-brand"><a href="">BRANDS</a></h2>
+        <p>Here will you find a selection of my favorite brand. Choosing the right partner to build your interior is also part of the succes</p>
       </div>
     </div>
   </div>
-  </div>
 
-  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    </ol>
-
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-      <div class="item active">
-    <%= image_tag "banner1.jpg", class:"photo-carroussel" %>
-        <div class="carousel-caption">
-        </div>
-      </div>
-      <div class="item">
-        <%= image_tag "banner2.jpg", class:"photo-carroussel"%>
-        <div class="carousel-caption">
+  <div class="wrapper-contact" id="contact">
+    <div class="wrapper-black">
+    </div>
+    <div class="container">
+      <div class="row contact-content">
+        <div class="col-xs-12">
+          <h2 class="contact">CONTACT</h2>
+          <p class='contact-title'>Marjolijn Bijman</p>
+          <p class="email center">mail: marjolijnbijman@gmail.com</p>
+          <p>phone: (+32) 489635823 <p class="adress">Rue general patton 33 - 1050 - Ixelles - Belgium</p>
         </div>
       </div>
     </div>
-
-    <!-- Controls -->
-    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 
-<div class="wrapper-contact">
-</div>
+
