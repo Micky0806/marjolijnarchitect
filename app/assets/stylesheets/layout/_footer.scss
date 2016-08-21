@@ -1,1 +1,37 @@
 // Your footer style
+
+.wrapper-contact{
+	margin-bottom: 10px;
+	background-color: #F0F0F0;
+	height: 30vh;
+	width:100%;
+	display:flex;
+	text-align:center;
+	align-items:center;
+	margin: 0px;
+}
+
+.wrapper-black{
+	background-color:#2B2F33;
+	height: 5vh;
+	margin:0px;
+}
+
+.fa-ul{
+	list-style-type: none;
+	font-size: 12px;
+	letter-spacing: 2px;
+
+}
+
+.contact{
+	text-align: center;
+}
+
+#contact ul li {
+	display: inline;
+}
+
+.adress:hover{
+color: gray;
+}
