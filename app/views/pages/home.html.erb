@@ -1,0 +1,161 @@
+   <%=render 'layouts/navbar'  %>
+
+   <section id="site">
+    <section id="banner">  
+      <div class="wrapper-home">
+        <div class="banner-image">
+          <div>
+            <h1 class="header-1">MARJOLIJN BIJMAN</h1>
+            <h2>INTERIOR ARCHITECT</h2>
+          </div>
+          <%= link_to "#about" do %>
+          <i class="fa fa-angle-down fa-4x smooth-scroll"></i>
+          <% end %>
+          <i class="fa fa-bars fa-2x" id="logo-bar"></i>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper-about">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h3 class="titre-about">dear.....</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-md-6">
+              <p>architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam volup.</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo vo </p>
+              <p>voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas </p>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui rfatione ni dolores eos qui </p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui rfatione ni dolores eos qui </p>
+              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremqu questions </p>
+              <p></p>
+              <p class="thanks">Thanks for reading.</p>
+              <p class="greeting">
+                Sincerely,
+                <br>
+                <em>duddksied
+                  <em>
+                    omnis toemas
+                  </em>
+                </em>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="work">
+      <div class="wrapper-work">
+        <div class="project-image">
+          <div class="project">
+            <h2 class="title-projects">PROJECTS</h2>
+            <%= link_to "Curious? Click here to have a look", projects_path, class:"button-project"%>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="brand">
+      <div class="wrapper-brand">
+        <div class="brand-content">
+          <div>
+            <%=link_to brands_path do %>
+            <h2 class='title-brand'>
+              BRANDS</h2>
+              <% end %>
+              <p>Here will you find a selection of my favorite brand. Choosing the right partner to build your interior is also part of the succes</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <section id="blog">
+        <div class="blog-title">
+          <h2>BLOG</h2>
+        </div>
+        <div class="container blog-container">
+          <div class="row">
+            <div id="blog-grid">
+              <div class="grid-sizer"></div>
+
+              <div class="card card-long">
+                <%= link_to blog_path do %>
+                <%=image_tag "banner1.jpg", class:'long'%>
+                <div class="blog-caption">
+                </div>
+                <% end %>
+              </div>
+
+              <div class="card card-square">
+              <%= link_to blog1_path do %>
+                <%=image_tag "banner2.jpg", class:'square'%>
+                <div class="blog-caption">
+                </div>
+                <% end %>
+              </div>
+
+              <div class="card card-square square2">
+                <%= link_to blog2_path do %>
+                <%=image_tag "banner3.jpg", class:'square'%>
+                <div class="blog-caption">
+                </div>
+                <% end %>
+              </div>
+
+              <div class="card card-square square3">
+               <%= link_to blog3_path do %>
+               <%=image_tag "banner3.jpg", class:'square'%>
+               <div class="blog-caption">
+               </div>
+               <% end %>
+
+             </div>
+
+             <div class="card card-square square4">
+              <%= link_to blog4_path do  %>
+              <%=image_tag "banner7.jpg", class:'square'%>
+              <div class="blog-caption">
+              </div>
+              <% end %>
+            </div>
+
+            <div class="card card-large">
+            <%= link_to blog5_path do  %>
+                <%=image_tag "banner9.jpg", class:'large'%>
+                <div class="blog-caption">
+                </div>
+          <% end %>
+            </div>
+
+            <div class="card card-long-horizontal">
+             <%= link_to blog6_path do  %>
+                <%=image_tag "project3.jpg", class:'horizontal'%>
+                <div class="blog-caption">
+                </div>
+              <% end %>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <%= render 'layouts/carousel'  %>
+    <%=render 'layouts/footer'  %>
+  </section>
+
+
+
+
