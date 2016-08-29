@@ -15,7 +15,9 @@
 			<div class="row space-between">
 				<div class="col-xs-12 col-md-6 text-left">
 					<div class="card-project">
-						<a href="show.html.erb"><%=image_tag "banner2.jpg", {class:'img-project'} %></a>
+					<%= link_to show1_path do %>
+						<%=image_tag "banner2.jpg", {class:'img-project'} %></a>
+						<%end %>
 					</div>
 					<div class="text-project">
 						<p>ttexlokfkfk</p>
@@ -26,7 +28,9 @@
 
 				<div class="col-xs-12 col-md-6">
 					<div class="card-project">
+					<%=link_to show2_path do  %>
 						<%=image_tag "banner3.jpg", {class:'img-project'} %>
+						<% end %>
 					</div>
 					<div class="text-project">
 						<p>test test test test</p>
@@ -39,7 +43,9 @@
 			<div class="row space-between">
 				<div class="col-xs-12 col-md-6 text-left">
 					<div class="card-project">
-						<a href="show.html.erb"><%=image_tag "banner2.jpg", {class:'img-project'} %></a>
+					<%=link_to show3_path  do %>
+						<%=image_tag "banner8.jpg", {class:'img-project'} %>
+						<% end %>
 					</div>
 					<div class="text-project">
 						<p>ttexlokfkfk</p>
@@ -50,7 +56,9 @@
 
 				<div class="col-xs-12 col-md-6">
 					<div class="card-project">
-						<%=image_tag "banner3.jpg", {class:'img-project'} %>
+					<%= link_to show4_path do %>	
+						<%=image_tag "banner9.jpg", {class:'img-project'} %>
+						<% end %>
 					</div>
 					<div class="text-project">
 						<p>test test test test</p>
