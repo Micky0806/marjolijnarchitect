@@ -8,12 +8,14 @@
 	text-align:center;
 	align-items:center;
 	margin: 0px;
+	
 }
 
 .wrapper-black{
 	background-color:#2B2F33;
 	height: 5vh;
 	margin:0px;
+	color:white;
 }
 
 .fa-ul{
@@ -33,4 +35,9 @@
 
 .email:hover{
 color: gray;
+}
+
+.fa-copyright{
+margin-top: 10px;
+margin-left: 10px;
 }
