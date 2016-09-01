@@ -17,66 +17,70 @@ align-items: center;
 
 
 .banner-image-project .header-1{
-margin-top:0px;
+	margin-top:0px;
 
 }
 
 
 #banner{
-position: relative;
+	position: relative;
 }
 
 .card-project{
-height: 300px;
-text-align:center;
-margin: 50px 40px 40px 40px;
+	position:relative;
+	height: 300px;
+	text-align:center;
+	margin: 50px 40px 40px 40px;
 }
 
 .img-project{
-height:300px;
-width:400px;
-text-align:center;
+	height:300px;
+	width:400px;
+	text-align:center;
 
 }
 
 
 .text-project{
-position:absolute;
-left:92px;
-margin-top:-20px;
+	position:absolute;
+	left:92px;
+	margin-top:-20px;
 }
 
 .row.space-between{
 
-margin-top: 50px;
-margin-bottom: 50px
+	margin-top: 50px;
+	margin-bottom: 50px
 
 }
 
 .space-footer{
-margin-top:80px;
+	margin-top:80px;
 }
 
 .black-button{
-border-radius: 50px;
-background-color: #2B2F33;
-padding: 15px 20px 15px 20px;
-font-family: dosis-regular;
-color:white;
+	border-radius: 50px;
+	background-color: #2B2F33;
+	padding: 15px 20px 15px 20px;
+	font-family: dosis-regular;
+	color:white;
 }
 
 a .black-button{
-text-decoration: none;
-opacity: 1;
+	text-decoration: none;
+	opacity: 1;
 }
 
 .black-button:hover{
-opacity: 0.9;
-background-color:#2B2F33;
-color:white;
+	opacity: 0.9;
+	background-color:#2B2F33;
+	color:white;
 
 }
 
 .button-see-more{
-margin-top:90px;
+	margin-top:90px;
 }
+
+
+

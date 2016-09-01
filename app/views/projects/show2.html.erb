@@ -1,11 +1,90 @@
-<%=render 'layouts/navbar' %>
-<section id="banner">
-	<div class="banner-image-project">
-		<div>
-			<h1 class="header-1 ">Marjolijn Bijman </h1>
-			<h2>INTERIOR ARCHITECT</h2>
+	<%=render 'layouts/navbar' %>
+	<section id="banner">
+		<div class="banner-image-project">
+			<div>
+				<h1 class="header-1 ">Marjolijn Bijman </h1>
+				<h2>INTERIOR ARCHITECT</h2>
+			</div>
+			<i class="fa fa-bars fa-2x" id="logo-bar"></i>
 		</div>
-		<i class="fa fa-bars fa-2x" id="logo-bar"></i>
+	</section>
+	
+
+	<div class="wrapper">
+		<div class="container">
+			<h1 class="space-between-title">Title project</h1>
+			<div class="space-between-title" >
+				<%=link_to "BACK", projects_path,class: "black-button" %>
+			</div>
+			<div class="row show-project ">
+				<div class="col-xs-12 col-md-4">
+					<h2 class="space-between-title">test</h2>
+					<p><%=Faker::Lorem.paragraph(sentence_count = 8)%></p>
+					<p><%=Faker::Lorem.paragraph(sentence_count = 7)%></p>
+					<p><%=Faker::Lorem.paragraph(sentence_count = 6)%></p>
+				</div>
+				<div class="col-xs-12 col-md-8">
+					<div class="image-project">
+						<%=image_tag "banner2.jpg", {class:'img-large'} %>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row show-project text-center">
+				<div class="col-xs-12 col-md-6">
+					<div class="image-project">
+						<%=image_tag "banner3.jpg", {class:'img-small'} %>
+					</div>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<div class="image-project">
+						<%=image_tag "banner7.jpg", {class:'img-small'} %>
+					</div>
+				</div>
+			</div>
+
+			<div class="row show-project text-center">
+				<div class="col-xs-12">
+					<p><%=Faker::Lorem.paragraph(sentence_count = 5)%></p>
+				</div>
+			</div>
+			<div class="row show-project">
+				<div class="col-xs-12 col-md-6 text-center">
+					<div class="image-project">
+						<%=image_tag "banner9.jpg", {class:'img-small'} %>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6 text-center">
+					<div class="image-project">
+						<%=image_tag "banner8.jpg", {class:'img-small'} %>
+					</div>
+				</div>
+			</div>
+
+			<div class="row show-project text-center">
+				<div class="col-xs-12">
+					<p><%=Faker::Lorem.paragraph(sentence_count = 5)%></p>
+				</div>
+			</div>
+			
+			<div class="row show-project">
+				<div class="col-xs-12 col-md-6 text-center">
+					<div class="image-project">
+						<%=image_tag "project1.jpg", {class:'img-small'} %>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-md-6 text-center">
+					<div class="image-project">
+						<%=image_tag "project3.jpg", {class:'img-small'} %>
+					</div>
+				</div>
+
+			</div>
+		</div>
 	</div>
-</section>
-<%=render 'layouts/footer'  %>	
+
+	<%=render 'layouts/footer'%>	
+
