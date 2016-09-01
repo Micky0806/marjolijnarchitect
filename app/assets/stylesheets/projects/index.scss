@@ -56,3 +56,27 @@ margin-bottom: 50px
 .space-footer{
 margin-top:80px;
 }
+
+.black-button{
+border-radius: 50px;
+background-color: #2B2F33;
+padding: 15px 20px 15px 20px;
+font-family: dosis-regular;
+color:white;
+}
+
+a .black-button{
+text-decoration: none;
+opacity: 1;
+}
+
+.black-button:hover{
+opacity: 0.9;
+background-color:#2B2F33;
+color:white;
+
+}
+
+.button-see-more{
+margin-top:90px;
+}

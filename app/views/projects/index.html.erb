@@ -15,27 +15,30 @@
 			<div class="row space-between">
 				<div class="col-xs-12 col-md-6 text-left">
 					<div class="card-project">
-					<%= link_to show1_path do %>
-						<%=image_tag "banner2.jpg", {class:'img-project'} %></a>
+						<%= link_to show1_path do %>
+						<%=image_tag "banner2.jpg", {class:'img-project'} %>
 						<%end %>
 					</div>
 					<div class="text-project">
 						<p>ttexlokfkfk</p>
 					</div>
-					<div class="extrainfo">
+					<div class="button-see-more text-center">
+						<%=link_to "SEE MORE", show1_path,class: "black-button" %>
 					</div>
+
 				</div>
 
 				<div class="col-xs-12 col-md-6">
 					<div class="card-project">
-					<%=link_to show2_path do  %>
+						<%=link_to show2_path do  %>
 						<%=image_tag "banner3.jpg", {class:'img-project'} %>
 						<% end %>
 					</div>
 					<div class="text-project">
 						<p>test test test test</p>
 					</div>
-					<div class="extrainfo">
+					<div class="button-see-more text-center">
+						<%=link_to "SEE MORE", show2_path,class: "black-button" %>
 					</div>
 				</div>
 			</div>
@@ -43,27 +46,29 @@
 			<div class="row space-between">
 				<div class="col-xs-12 col-md-6 text-left">
 					<div class="card-project">
-					<%=link_to show3_path  do %>
+						<%=link_to show3_path  do %>
 						<%=image_tag "banner8.jpg", {class:'img-project'} %>
 						<% end %>
 					</div>
 					<div class="text-project">
 						<p>ttexlokfkfk</p>
 					</div>
-					<div class="extrainfo">
-					</div>
+				<div class="button-see-more text-center">
+					<%=link_to "SEE MORE", show3_path,class: "black-button" %>
+				</div>
 				</div>
 
 				<div class="col-xs-12 col-md-6">
 					<div class="card-project">
-					<%= link_to show4_path do %>	
+						<%= link_to show4_path do %>	
 						<%=image_tag "banner9.jpg", {class:'img-project'} %>
 						<% end %>
 					</div>
 					<div class="text-project">
 						<p>test test test test</p>
 					</div>
-					<div class="extrainfo">
+					<div class="button-see-more text-center">
+						<%=link_to "SEE MORE", show4_path,class: "black-button" %>
 					</div>
 				</div>
 			</div>
@@ -74,7 +79,7 @@
 </section>
 
 <section class=space-footer>
-<%=render 'layouts/footer'  %>
+	<%=render 'layouts/footer'  %>
 </section>
 
 
