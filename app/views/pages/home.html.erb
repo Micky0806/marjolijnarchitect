@@ -91,7 +91,7 @@
               <div class="grid-sizer"></div>
 
               <div class="card card-long">
-                <%= link_to blog_path do %>
+                <%= link_to "root_path", data: {toggle: "modal", target:"#myModal1"} do %>
                 <%=image_tag "banner1.jpg", class:'long'%>
                 <div class="blog-caption">
                 </div>
@@ -99,7 +99,7 @@
               </div>
 
               <div class="card card-square">
-              <%= link_to blog1_path do %>
+                <%= link_to "root_path", data: {toggle: "modal", target:"#myModal2"} do %>
                 <%=image_tag "banner2.jpg", class:'square'%>
                 <div class="blog-caption">
                 </div>
@@ -132,28 +132,30 @@
             </div>
 
             <div class="card card-large">
-            <%= link_to blog5_path do  %>
-                <%=image_tag "banner9.jpg", class:'large'%>
-                <div class="blog-caption">
-                </div>
-          <% end %>
+              <%= link_to blog5_path do  %>
+              <%=image_tag "banner9.jpg", class:'large'%>
+              <div class="blog-caption">
+              </div>
+              <% end %>
             </div>
 
             <div class="card card-long-horizontal">
              <%= link_to blog6_path do  %>
-                <%=image_tag "project3.jpg", class:'horizontal'%>
-                <div class="blog-caption">
-                </div>
-              <% end %>
-            </div>
+             <%=image_tag "project3.jpg", class:'horizontal'%>
+             <div class="blog-caption">
+             </div>
+             <% end %>
+           </div>
 
-          </div>
-        </div>
-      </div>
-    </section>
+         </div>
+       </div>
+     </div>
+   </section>
 
-    <%=render 'layouts/footer'  %>
-  </section>
+   <%=render 'layouts/footer'  %>
+   <%=render 'layouts/modal' %>
+ </section>
+
 
 
 

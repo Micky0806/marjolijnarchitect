@@ -50,3 +50,8 @@ $('#navbar').hide();
 $('#logo-bar').show();
 });
 });
+
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
