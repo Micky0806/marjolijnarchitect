@@ -3,7 +3,7 @@ h1 h2 h3 h4 p {
 	color:#12100E;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4{
 // text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 letter-spacing:10px;
 // rgba(1, 1, 1, 0.5)
@@ -22,6 +22,12 @@ h3{
 	font-size:15px;
 	letter-spacing:2px
 }
+
+h4{
+	font-size:20px;
+	letter-spacing:2px
+}
+
 
 p{
 	font-size:13px;
@@ -69,7 +75,7 @@ align-items: center;
 #logo-bar{
 	position:absolute;
 	top:20px;
-	left:20px;
+	right:20px;
 	color:white;
 	display:inline-block;
 	z-index: 1002;
