@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
 $('#navbar').hide(); //Initially form wil be hidden.
 $('#logo-bar').click(function() {
@@ -9,11 +10,6 @@ $('#navbar').hide();
 $('#logo-bar').show();
 });
 });
-
-
-
-
-
 
 
 $(document).ready(function() {
@@ -55,3 +51,4 @@ $('#logo-bar').show();
 $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })
+
